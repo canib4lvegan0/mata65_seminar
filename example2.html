@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Seminário de CG - HDR Texture</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./Assets/icons/icon.png"> 
+    <link rel="stylesheet" type="text/css" href="./Assets/css/CG-Classes.css">
+	<script type="importmap">
+		{
+			"imports": {
+						"three"         	: "./Assets/scripts/three.js/build/three.module.js",
+						"gui"           	: "./Assets/scripts/three.js/examples/jsm/libs/lil-gui.module.min.js",
+						"orb-cam-ctrl"  	: "./Assets/scripts/three.js/examples/jsm/controls/OrbitControls.js",
+				    	"rgbm-loaders"  	: "./Assets/scripts/three.js/examples/jsm/loaders/RGBMLoader.js",
+				    	"debug-env"  		: "./Assets/scripts/three.js/examples/jsm/environments/DebugEnvironment.js",
+				    	"hdr-cube-loaders"  : "./Assets/scripts/three.js/examples/jsm/loaders/HDRCubeTextureLoader.js",
+				    	"stats"  : 			"./Assets/scripts/three.js/examples/jsm/libs/stats.module.js"
+			}
+		}
+	</script>
+	<script type=module src="./example2.js"></script>
+</head>
+
+<body>
+	<h3 id="output-text">Exemplo 2: Variação entre Textura LDR e HDR, com controle de exposição.</h2>
+	<div id="threejs-canvas"></div>
+</body>
+
+</html>
